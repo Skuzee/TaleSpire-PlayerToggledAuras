@@ -99,7 +99,7 @@ namespace Angst
                 UnityEngine.Debug.Log("PlayerToggledAuras Plugin: Radial Menu Buttons are Disabled.");
             }
             // Post plugin on the TaleSpire main page
-            // Utility.PostOnMainPage(this.GetType());  
+            Utility.PostOnMainPage(this.GetType());  
         }
 
         void Update()
